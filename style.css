@@ -1,0 +1,158 @@
+#projectForm{
+    box-sizing: border-box;
+    position: fixed;
+    width: 30vw;
+    height: 15vh;
+    border: 2px solid black;
+    background-image: linear-gradient(to bottom right, rgb(196, 196, 196), rgb(48, 48, 48));
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.deleteBtn{
+    display:inline-block
+}
+
+.task p{
+    font-size: 20px
+}
+
+.task{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 99%;
+    background-image: linear-gradient(to bottom right, rgb(187, 187, 187), rgb(66, 66, 66));
+    margin-top: 1px;
+    border-radius: 15px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.name{
+    width: 100%;
+    text-align: center
+}
+
+.description{
+    width: 100%;
+    text-align: center;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#taskform{
+    box-sizing: border-box;
+    position: fixed;
+    width: 50vw;
+    height: 20vh;
+    border: 2px solid black;
+    background-image: linear-gradient(to bottom right, rgb(196, 196, 196), rgb(48, 48, 48));
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.text{
+    width: 11vw;
+    background-color: rgb(184, 184, 184);
+}
+
+textarea{
+    width: 75%;
+    height:30%;
+    background-color: rgb(223, 223, 223);
+    max-height: 50%;
+    min-height: 25%;
+    min-width: 50%
+}
+
+select{
+    background-color: rgb(184, 184, 184)
+}
+
+form button{
+    background-color: rgb(184, 184, 184)
+}
+
+#projects{
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 20vw;
+    height: 93vh;
+    border-right: 2px solid black;
+    background-image: linear-gradient(to bottom right, rgb(105, 105, 105), rgb(48, 48, 48)); 
+    
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+#tasks{
+    position: fixed;
+    right: 0px;
+    top: 7vh;
+    background-image: linear-gradient(to bottom right, rgb(105, 105, 105), rgb(31, 31, 31));
+    width: 80vw;
+    height: 83vh;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+}
+
+#title{
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 2px solid black;
+    height: 7vh;
+    line-height: 17px;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(109, 109, 109), rgb(63, 63, 63));
+    color: rgb(216, 216, 216);
+}
+
+#create{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border-top: 2px solid black;
+    background-image: linear-gradient(to bottom right, rgb(87, 87, 87), rgb(54, 54, 54));
+    width: 80vw;
+    box-sizing: border-box;
+    height: 10vh;
+}
+
+.project {
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 95%;
+    background-image: linear-gradient(red, yellow); 
+    
+}
